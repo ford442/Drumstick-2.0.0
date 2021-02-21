@@ -1,0 +1,336 @@
+2020-12-29
+    * release 2.0.0
+
+2020-11-02
+    * documentation updated
+
+2020-10-12
+    * designer plugin renamed to "drumstick-vpiano-plugin" and fixed deploy location. Central C naming revised
+
+2020-10-08
+    * License upgrade: GPLv3 or later. Translations updated.
+
+2020-09-28
+    * fixed SequencerOutputThread troubles finishing songs properly
+    * enhanced guiplayer usability
+
+2020-09-25
+    * plugins versioning, allowing runtime coexistence between plugins of drumstick-1 and drumstick-2
+
+2020-09-18
+    * Enabled translations for drumstick-widgets and GUI utils
+
+2020-09-16
+    * fixed ticket #2 Removed unmaintained OVE support
+
+2020-09-11
+    * Piano palette refactoring
+    * New unit tests for the Widgets library
+
+2020-09-09
+    * fixed ticket #20 Same names for ALSA Sequencer clients of two hw USB controllers
+
+2020-09-04
+    * fixed ticket #22 implementation: better rendering of note names in piano keyboard widget
+
+2020-03-20
+    * New library drumstick-gui, applied to drumstick-vpiano
+
+2020-01-02
+    * Synchronization of EAS Synth code with upstream AOSP repository ('android10' branch)
+
+2019-12-30
+    * Code and namespaces reorganization. drumstick-alsa classes placed in the new 'drumstick::ALSA' namespace
+
+2019-12-19
+    * Revised ALSA RT plugins. ALSA Client is now created only when needed
+
+2019-12-16 
+    * Modernization of the cmake buildsystem, producing cmake configuration scripts
+
+2019-09-01
+    * release 1.1.3
+
+2019-08-29
+    * release preparations
+
+2019-07-07
+    * Avoid endless loops on unexpected end of input.
+
+2019-07-06
+    * Fix for ticket #17: CoreMIDI.framework using wrong name-case
+
+2019-07-06
+    * Generate SMFError when the parser finds unexpected end of input. Fix for ticket #16
+
+2019-07-05
+    * Fix for ticket #16: bad MIDI files (drumstick-file)
+
+2019-07-02
+    * Fixed macOS deprecation warnings
+
+2019-01-29
+    * general cleanups and bringing back the fluidsynth backend
+
+2019-01-28
+    * Fix for ticket #14: migration to full GNUInstallDirs support
+
+2019-01-27
+    * modernization started of the CMake build system
+
+2019-01-26
+    * Library includes reorganization
+
+2019-01-20
+    * Fixed drumstick-file unit test
+    * Tweaks on qmake build system
+
+2019-01-15
+    * Custom commandline parser replaced by standard Qt5 QCommandLineParser
+
+2019-01-13
+    * Removed custom commanline parser class, replaced by standard Qt5 QCommandLineParser
+
+2019-01-08
+    * fixed spurious error message for ALSA input
+
+2019-01-07
+    * Fixed differences between unix and windows semantics
+
+2019-01-06
+    * Network backend: support for IPv6
+
+2018-11-25
+    * release 1.1.2
+
+2018-11-24
+    * Fix for ticket #13 - some macOS input events lost
+    * Added some bundle metadata for macOS
+    * Solution for ticket #8: Path for plugins hardcoded
+
+2018-02-24
+    * release 1.1.1
+
+2018-01-07
+    * disabled fluidsynth output driver
+    * Fixed build on macOS < 10.11, thanks to Andreas
+
+2017-08-14
+    * fixed unit test for more tolerance
+    * release preparations
+
+2017-08-13
+    * fix for ticket #11: replaced assert() by Q_ASSERT()
+    * fix for ticket #9: removed ALSA/Linux dependency where possible.
+
+2017-05-10
+    * rt: fixed pitch bend events on several output backends
+
+2017-04-16
+    * fixed tab order on forms
+
+2017-04-03
+    * added keywords to the desktop files. Patch by Ross Gammon
+
+2016-09-25
+    * release 1.1.0
+
+2016-09-11
+    * reverted audio backend for sonivox eas to pulseaudio again
+    * rt: settings for sonivox eas and mac native synth
+    * vpiano: dialogs for synth settings
+
+2016-08-18
+    * release 1.1.0 preparation
+    * removed four utilities, now implemented as unit tests
+
+2016-08-17
+    * drumstick-rt: fix backendmanager initialization, added two new methods to retrieve backends by name
+    * documentation updated
+    * copyright years updated
+
+2016-07-03
+    * guiplayer accepts a single file argument in the command line: mid, kar, wrk, and ove
+    * Missing cmake scripts license, patch by Maximiliano Curia
+
+2016-05-22
+    * Fix for mac osx static builds
+
+2016-05-21
+    * Fix for static build using the new backends
+
+2016-05-16
+    * Fix for cmake/qmake builds on mac
+
+2016-05-15
+    * new backend: Apple DLS Synth
+
+2016-05-08
+    * version number changed provisionally to 1.0.99
+    * new backend: sonivox eas synthesizer for Linux
+
+2016-02-17
+    * Fix build with GCC 6, patch by Robin Lee
+
+2016-01-30
+    * guiplayer: there is no need for a quit() slot. Fix for hanging notes when closing the window with the corner icon.
+    * Use GNUInstallDirs to install arch-independent data, patch by Heiko Becker
+
+2015-12-29
+    * release 1.0.2
+
+2015-10-10
+    * RT library: fixed ticket #6 - MIDI input connection on Mac OSX
+
+2015-08-20
+    * release 1.0.1
+
+2015-04-26
+    * RT library: fixed ticket #4: ALSA Midi Input not working
+
+2014-11-22
+    * RT library: fixed windows midi input
+
+2014-08-30
+    * release 1.0.0
+
+2014-08-02
+    * vpiano using RT library
+
+2014-07-26
+    * documentation updates
+
+2014-04-27
+    * RT library: OSS backend
+
+2014-04-13
+    * RT library: FluidSynth backend
+
+2014-03-30
+    * RT library: Windows backend
+
+2014-02-09
+    * RT library: Mac OSX backend
+
+2014-02-09
+    * RT library: Network and ALSA backends
+
+2013-12-31
+    * Qt5 compatibility
+
+2010-09-13
+    * fixed dumpove: file header text
+
+2010-09-08
+    * documentation updated
+    * release 0.5.0
+
+2010-09-08
+    * remaining warnings removed 
+    * guiplayer simplified, and optimizations
+    * compile with -fvisibility=hidden if it is available
+    * compile always with -fexceptions
+    * fixes in both buildsystems, cmake and qmake
+
+2010-09-02 
+    * Use RealtimeKit support for the MIDI input thread.
+
+2010-08-31
+    * OVE file format support, by Rui Fan <vanferry@gmail.com>
+    * guiplayer adds OVE format playback
+
+2010-07-24
+    * Fixed static build support
+
+2010-07-12
+    * removed PCH build option
+    * release 0.4.1
+    
+2010-07-11
+    * Fixed bug in class SequencerInputThread: realtime priority must be applied
+      in run() instead of start() to avoid changing the scheduling policy of the
+      parent. This is a problem when running FluidSynth in systems affected by a
+      glib-2.22 bug that has not yet been fixed.
+      Reference: https://bugzilla.gnome.org/show_bug.cgi?id=599079
+
+2010-07-07
+    * smfplayer renamed as guiplayer, with a new windows layout and
+      supporting Cakewalk WRK files playback
+    * release 0.4.0
+    
+2010-07-03
+    * subdirectory "tests" renamed as "utils".
+    * visibility attribute for public classes.
+    
+2010-06-10
+    * Compile fix for 0.3.2
+    * release 0.3.2a
+
+2010-06-09
+    * Command line arguments for all the utilities/test programs.
+
+2010-05-28
+    * fix a crash in drumstick-sysinfo when a timer module is not loaded.
+
+2010-05-13
+    * Man pages for the utilities/test programs.
+
+2010-05-10
+    * New test program: DrumGrid
+
+2010-04-19
+    * Release 0.3.1
+    * Allow to build drumstick-file library under Windows
+    * New method MidiClient::parseAddress() replacing the ALSA function 
+      snd_seq_parse_address() in MidiPort::subscribeTo() and similar methods.
+    * Fixed MidiClient::getAvailableInputs() and getAvailableOutputs() forcing 
+      to always retrieve the clients list.
+
+2010-03-09
+    * Release 0.3.0
+    * API changes:
+      SequencerEvent::isChannel() returns true for SND_SEQ_EVENT_NOTE 
+      QueueTimer::setId(const TimerId& id) new method overload
+      Timer::bestGlobalTimerId() new static function
+      getRuntimeALSALibraryVersion() new global function
+      getRuntimeALSALibraryNumber() new global function
+      getRuntimeALSADriverVersion() new global function
+      getRuntimeALSADriverNumber() new global function
+    
+2010-03-02
+    * New class QWrk, for reading Cakewalk files
+
+2010-02-17
+    * Split: drumstick-file and drumstick-alsa 
+
+2010-01-07
+    * Renamed to 'drumstick' and moved to a new project repository 
+
+2009-12-27
+    * Release 0.2.0
+    * API changes:
+      SequencerInputThread::start() added a priority parameter
+      SequencerEvent::isChannel() new static method
+      SequencerOutputThread::stopped() method removed, converted into a signal
+      SequencerOutputThread::start() added a priority parameter
+      SequencerOutputThread::shutupSound() method removed
+      SequencerOutputThread::stopRequested() method added
+      QSmfPrivate class added
+      QSmf::writeMetaEvent() new method overload
+      QSmf::getTextCodec() new method
+      QSmf::setTextCodec() new method
+      QSmf::signalSMFVariable() signal dropped
+      QSmf::signalSMFMetaUnregistered() signal added
+      Subscriber::operator==() removed unimplemented operator prototype
+
+2009-08-27
+    * Public release 0.1.0
+
+2008-12-29 0.0.2pre5
+    * Snapshot included in kmetronome-0.9.0 and kmidimon-0.6.0
+
+2008-11-09 0.0.2pre1
+    * Initial pre-release
+
+2008-05-12 0.0.1
+    * Development started
