@@ -1,6 +1,5 @@
-# Drumstick-2.0.0
 
-Drumstick Libraries 2.0.0
+# Drumstick Libraries 2.0.0
 =========================
 
 Drumstick is a set of MIDI libraries using C++/Qt5 idioms and style. Includes 
